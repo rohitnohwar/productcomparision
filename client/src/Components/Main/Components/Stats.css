@@ -1,0 +1,33 @@
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.stats-card {
+    width: 18.2%;
+    height: 100px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-icons {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.card-number {
+    font-size: 46px;
+    font-weight: 400;
+    color: purple;
+}

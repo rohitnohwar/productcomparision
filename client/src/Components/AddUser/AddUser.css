@@ -1,0 +1,33 @@
+.add-user {
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 5px;
+}
+
+.form-header {
+    margin-top: 20px;
+}
+
+.form-input {
+    margin-top: 50px;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.submit-button {
+    margin-top: 50px;
+    background-color: orange;
+    border: 0px;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+}

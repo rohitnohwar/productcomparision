@@ -1,0 +1,17 @@
+.sidebar {
+    display: flex;
+    width:15%;
+    overflow: auto;
+    /* background-color: #4C516D; */
+    background-color: #00308F;
+    position: sticky;
+    top: 60px;
+    height: 93vh;
+    color: white !important;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sidebar-list {
+    color: grey;
+}
