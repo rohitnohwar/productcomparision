@@ -3,15 +3,22 @@
     width:15%;
     overflow: auto;
     /* background-color: #4C516D; */
-    background-color: #00308F;
+    /* background-color: #00308F; */
+    background-color: #002D62;
     position: sticky;
     top: 60px;
     height: 93vh;
     color: white !important;
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .sidebar-list {
     color: grey;
+    list-style: none;
+}
+
+.list-items {
+    margin-top: 30px;
+    cursor: pointer;
 }
