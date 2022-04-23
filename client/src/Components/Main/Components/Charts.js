@@ -84,11 +84,9 @@ function Charts(props) {
                     name:product.productId,
                 }
                 areaConfig.data = data
-                console.log(areaConfig)
                 areaData.push(areaConfig)
                 
             });
-            console.log(areaData)
 
             setData({
                 labels:axisX,
