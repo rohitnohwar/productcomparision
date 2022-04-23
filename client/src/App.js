@@ -1,14 +1,5 @@
 import React, { Suspense } from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-// import Main from './Components/Main/Main.js';
-// import Header from './Components/Header/Header.js';
-// import Sidebar from './Components/Sidebar/Sidebar';
-// import AddUser from './Components/AddUser/AddUser';
-// import AddInvoice from './Components/AddInvoice/AddInvoice.js';
-// import AddIssue from './Components/AddIssue/AddIssue.js';
-// import AddProject from './Components/AddProject/AddProject.js';
-// import AddProduct from './Components/AddProduct/AddProduct.js';
-
 const Main = React.lazy(() => import('./Components/Main/Main.js'));
 const Header = React.lazy(() => import('./Components/Header/Header.js'));
 const Sidebar = React.lazy(() => import('./Components/Sidebar/Sidebar'));
