@@ -1,10 +1,15 @@
 .sidebar {
     display: flex;
-    width:15%;
+    width:18%;
     overflow: auto;
     /* background-color: #4C516D; */
     /* background-color: #00308F; */
-    background-color: #002D62;
+    /* background-color: #002D62; */
+    /* background-color: #002D62; */
+    /* background-color: #36454f; */
+    /* background-color: #282828; */
+    /* background-color: 	#303030; */
+    background-color: 	#383838;
     position: sticky;
     top: 60px;
     height: 93vh;

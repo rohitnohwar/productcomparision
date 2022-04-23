@@ -8,8 +8,9 @@
 
 .charts-card {
     width: 42%;
-    height: 500px;
+    height: 400px;
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 5px;
+    padding-top: 50px;
 }

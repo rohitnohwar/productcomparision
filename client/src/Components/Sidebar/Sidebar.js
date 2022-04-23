@@ -12,10 +12,10 @@ function Sidebar(props) {
             <img src={avatarIcon} className="icons-right" style={{marginTop:'10px'}}/> Name
             <li className='list-items' onClick={()=>{navigate('/')}}>Main</li>
             <li className='list-items' onClick={()=>{navigate('/add-user')}}>Add user</li>
-            <li className='list-items' onClick={()=>{navigate('/add-invoice')}}>invoice</li>
+            <li className='list-items' onClick={()=>{navigate('/add-invoice')}}>Add invoice</li>
             <li className='list-items' onClick={()=>{navigate('/add-issue')}}>Add issue</li>
-            <li className='list-items' onClick={()=>{navigate('/add-project')}}>project</li>
-            <li className='list-items' onClick={()=>{navigate('/add-product')}}>product</li>
+            <li className='list-items' onClick={()=>{navigate('/add-project')}}>Add project</li>
+            <li className='list-items' onClick={()=>{navigate('/add-product')}}>Add product(for graph)</li>
         </ul>
         </div>
     );

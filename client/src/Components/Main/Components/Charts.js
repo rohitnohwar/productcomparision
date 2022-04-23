@@ -129,7 +129,7 @@ function Charts(props) {
     return ( 
         <div className='charts'>
             <div className='charts-card' style={{marginRight:'5%'}}>{
-                chartData.labels && chartData.datasets && options && <Line options={options} data={chartData} />
+                chartData.labels && chartData.datasets && options && <Line options={options} data={chartData} style={{height:'350'}} />
             }</div>
             <div className='charts-card'>
             {areaOptions && <ReactApexChart options={areaOptions} series={areaChart} type="area" height={350} />}
