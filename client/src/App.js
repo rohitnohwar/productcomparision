@@ -25,7 +25,7 @@ function App() {
       <div style={{display:'flex', flexWrap:'wrap'}}>
           <Sidebar />
           <div style={{width:'85%'}}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div style={{margin:'auto', fontSize:'30px', fontWeight:'800'}}>Loading...</div>}>
             <Routes>
               <Route path="/" exact element={<Main />} />
               <Route path="/add-user" exact element={<AddUser />} />
