@@ -121,18 +121,21 @@ function Charts(props) {
         })
     }
 
+    const [winwidth, setwinwidth] = useState(window.screen.width);
+    const [winheight, setwinheight] = useState(window.screen.height);
+
 
     useEffect(() => {
         getProductInfo()
     },[])
 
     return ( 
-        <div className='charts'>
-            <div className='charts-card' style={{marginRight:'5%'}}>{
-                chartData.labels && chartData.datasets && options && <Line options={options} data={chartData} style={{height:'350'}} />
+        <div className='chas'>
+            <div className='charts-card'>{
+                chartData.labels && chartData.datasets && options && <Line options={options} data={chartData} height={winwidth<500?'200px':winwidth<450?'500px':winwidth>1200?'200px':null} maxHeight='150px' />
             }</div>
             <div className='charts-card'>
-            {areaOptions && <ReactApexChart options={areaOptions} series={areaChart} type="area" height={350} />}
+            {areaOptions && <ReactApexChart options={areaOptions} series={areaChart} type="area" />}
             </div>
         </div>
     );

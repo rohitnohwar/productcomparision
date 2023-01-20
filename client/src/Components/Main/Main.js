@@ -8,7 +8,6 @@ function Main(props) {
 
     return (
         <div className='main'>
-            <Stats />
             <Charts />
         </div>
         );
