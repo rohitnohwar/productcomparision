@@ -8,12 +8,8 @@ const path=require("path");
 const mongoose=require("mongoose")
 
 const app = express();
-const invoiceroutes=require("./routes/invoiceroutes")
-const issueroutes=require("./routes/issueroutes")
 const mainroutes=require("./routes/mainroutes")
-const projectroutes=require("./routes/projectroutes")
 const productroutes=require("./routes/productroutes")
-const userroutes=require("./routes/userroutes")
 
 
 app.set('view engine','ejs');
@@ -26,12 +22,8 @@ mongoose.connect(process.env.URI, {useNewUrlParser:true, useUnifiedTopology: tru
 // mongoose.set("useFindAndModify", false);
 
 
-app.use("/", invoiceroutes)
-app.use("/", issueroutes)
 app.use("/", mainroutes)
-app.use("/", projectroutes)
 app.use("/", productroutes)
-app.use("/", userroutes)
 
 const port = process.env.PORT || 3001;
 

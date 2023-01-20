@@ -1,8 +1,6 @@
 const express=require("express");
 const app = express.Router()
-const {counts, productinfo} = require("../controllers/maincontroller")
-
-app.get("/counts", counts)
+const {productinfo} = require("../controllers/maincontroller")
 
 app.get("/productinfo", productinfo)
 
